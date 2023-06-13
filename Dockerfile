@@ -1,5 +1,5 @@
 FROM pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel
-RUN pip install torchvision==0.8.2 
+RUN pip install torchvision
 RUN pip install transformers==4.11.3 
 RUN pip install tensorboardX==2.4
 RUN pip install pytorch-crf==0.7.2 
@@ -15,6 +15,6 @@ RUN pip install activations==0.1.0
 RUN pip install dataclasses==0.6 
 RUN pip install file_utils==0.0.1 
 RUN pip install flax==0.3.4 
-RUN pip install PyYAML==5.4.1 
+RUN pip install PyYAML
 RUN pip install utils==1.0.1 
 RUN pip install torchmetrics==0.7.3
