@@ -1,4 +1,4 @@
-FROM mathworks/matlab:latest
+FROM mathworks/matlab:R2020b
 
 
 
