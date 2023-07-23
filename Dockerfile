@@ -1,4 +1,4 @@
-FROM mathworks/matlab:R2020b
+FROM mathworks/matlab-deps:R2022a-ubuntu20.04
 
 
 
