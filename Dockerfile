@@ -1,4 +1,4 @@
-FROM mathworks/matlab:R2022a
+FROM pytorch/pytorch:2.0.0-cuda11.7-cudnn8-devel
 
 
 
