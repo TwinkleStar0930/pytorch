@@ -1,4 +1,4 @@
-FROM mathworks/matlab:r2020b
+FROM datajoint/matlab:R2021a-MIN
 
 
 
